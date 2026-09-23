@@ -12,12 +12,4 @@ Quiero saber cómo evaluar el deterioro estructural y funcional de un pavimento 
 * Alex Camilo Rodriguez Camargo 
 ---
 
-## 📂 Estructura del Repositorio
-Así se encuentran organizados los archivos y carpetas en este espacio:
 
-* `codigo/` $\rightarrow$ Scripts, códigos fuente o archivos de desarrollo.
-* `datos/` $\rightarrow$ Bases de datos, Excels, tablas de información o registros.
-* `documento/` $\rightarrow$ Anteproyectos, informes, reportes o avances escritos (en PDF o LaTeX).
-* `recursos/` $\rightarrow$ Imágenes, diagramas, capturas o material de apoyo.
-
----
