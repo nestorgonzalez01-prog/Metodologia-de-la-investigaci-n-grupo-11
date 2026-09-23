@@ -7,7 +7,7 @@ Quiero saber cómo evaluar el deterioro estructural y funcional de un pavimento 
 
 ## 👥 Integrantes
 * Nestor Santiago Gonzalez Amaya 
-* Juian David Ramirez Vargas
+* Juilan David Ramirez Vargas
 * Raul Santiago Cardenas Jimenez 
 * Alex Camilo Rodriguez Camargo 
 ---
