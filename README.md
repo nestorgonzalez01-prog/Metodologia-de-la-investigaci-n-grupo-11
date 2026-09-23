@@ -21,8 +21,3 @@ Así se encuentran organizados los archivos y carpetas en este espacio:
 * `recursos/` $\rightarrow$ Imágenes, diagramas, capturas o material de apoyo.
 
 ---
-
-## 📌 Estado del Proyecto
-* [x] Fase 1: Planteamiento y delimitación del problema.
-* [ ] Fase 2: Recolección y procesamiento de datos.
-* [ ] Fase 3: Análisis y conclusiones.
