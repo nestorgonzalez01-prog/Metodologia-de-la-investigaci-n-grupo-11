@@ -1,0 +1,114 @@
+\documentclass[11pt, a4paper]{article}
+\usepackage[a4paper, margin=2.5cm]{geometry}
+\usepackage{fontspec}
+\usepackage[english, spanish, bidi=basic, provide=*]{babel}
+\babelfont{rm}{Noto Sans}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{hyperref}
+
+\definecolor{uptcblue}{RGB}{0, 51, 102}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=uptcblue,
+    filecolor=magenta,      
+    urlcolor=uptcblue,
+    pdftitle={Evaluación Estructural y Funcional de Pavimentos},
+    pdfpagemode=UseOutlines,
+}
+
+\begin{document}
+
+\begin{center}
+    {\Large \textbf{UNIVERSIDAD PEDAGÓGICA Y TECNOLÓGICA DE COLOMBIA}}\\[0.2cm]
+    {\large \textbf{FACULTAD DE INGENIERÍA -- ESCUELA DE INGENIERÍA CIVIL}}\\[0.1cm]
+    {\normalsize Metodología de la Investigación $\cdot$ Fase 3: Formulación de la Propuesta}\\[0.5cm]
+    
+    {\LARGE \textbf{Evaluación estructural y funcional del deterioro en el pavimento de un corredor vial de carga mediante metodología PCI y análisis mecanicista-empírico según normativa INVIAS}}\\[0.4cm]
+    
+    \vspace{0.2cm}
+    \textbf{Integrantes del equipo:} \\
+    Raul Santiago Cárdenas Jiménez \quad Néstor Santiago González Amaya \quad Julián David Ramírez Vargas\\[0.1cm]
+    \textbf{Fecha:} 24 de agosto de 2026
+\end{center}
+
+\rule{\textwidth}{0.8pt}
+
+\section*{1. Título del Proyecto}
+Evaluación estructural y funcional del deterioro en el pavimento de un corredor vial de carga mediante metodología PCI y análisis mecanicista-empírico según normativa INVIAS.
+
+\section*{2. Pregunta de Investigación y Delimitación del Alcance}
+
+\subsection*{2.1. Pregunta de Investigación}
+¿Qué efecto tiene la aplicación metodológica del Índice de Condición del Pavimento (PCI) y el análisis mecanicista-empírico según la normativa del INVIAS sobre la estimación del comportamiento estructural y la priorización de intervenciones en corredores viales de carga?
+
+\subsection*{2.2. Delimitación del Alcance}
+El estudio se acota temporalmente a un período de 16 semanas correspondientes al semestre académico, geográficamente a un corredor vial de carga específico en el departamento de Boyacá, institucionalmente bajo los lineamientos de la UPTC y normativamente circunscrito a los manuales de mantenimiento, gestión vial y diseño de pavimentos del INVIAS junto con la metodología PCI (ASTM D6433).
+
+\section*{3. Justificación}
+La presente investigación se fundamenta y desarrolla en tres dimensiones clave:
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Dimensión Teórica:} Aporta evidencia científica y técnica contextualizada al relacionar de manera directa la auscultación funcional superficial (PCI) con la estimación estructural mecanicista-empírica en corredores viales nacionales de alta solicitación de carga.
+    \item \textbf{Dimensión Práctica:} Proporciona criterios técnicos rigurosos para la toma de decisiones orientadas a la priorización de intervenciones de mantenimiento o rehabilitación, evitando el uso ineficiente de recursos públicos y privados en reparaciones superficiales aisladas que no atacan la causa raíz del deterioro.
+    \item \textbf{Dimensión Metodológica:} Integra procedimientos estandarizados de auscultación visual, levantamiento topográfico y modelación analítica bajo la normatividad colombiana del INVIAS, los cuales quedan disponibles como base metodológica replicable para futuros estudios de infraestructura vial en la región.
+\end{itemize}
+
+\section*{4. Objetivos (General y Específicos)}
+
+\subsection*{4.1. Objetivo General}
+Contribuir a la gestión eficiente de la infraestructura vial de carga mediante la generación de criterios técnicos fundamentados en la evaluación integrada de deterioros y el análisis mecanicista-empírico, orientados a optimizar la selección de alternativas de mantenimiento o rehabilitación según la normativa del INVIAS.
+
+\subsection*{4.2. Objetivos Específicos y Metas de Verificación}
+\begin{enumerate}[leftmargin=*]
+    \item \textbf{Diagnosticar el estado actual de conservación del corredor vial} mediante la identificación y cuantificación de daños superficiales aplicando la metodología PCI. \\
+    \textit{Meta:} Reportar el índice PCI y la cartografía detallada de daños superficiales de un tramo de estudio delimitado de un corredor vial de carga.
+    \item \textbf{Recopilar y analizar la información complementaria} sobre el tránsito de carga, las características de los materiales y las condiciones geotécnicas del tramo. \\
+    \textit{Meta:} Consolidar un registro sistematizado de los parámetros de tráfico equivalente (EALs), propiedades de los materiales y condiciones de soporte de la subrasante.
+    \item \textbf{Relacionar los deterioros superficiales observados} con el comportamiento estructural estimado a través de un enfoque mecanicista-empírico. \\
+    \textit{Meta:} Establecer correlaciones analíticas entre la severidad de las fallas superficiales evaluadas por PCI y la respuesta de esfuerzos y deformaciones bajo solicitaciones de carga.
+    \item \textbf{Establecer directrices técnicas} fundamentadas en la normatividad de INVIAS para orientar posibles soluciones de intervención estructural. \\
+    \textit{Meta:} Presentar una propuesta técnica de priorización de alternativas de rehabilitación fundamentada en los resultados del diagnóstico integrado.
+\end{enumerate}
+
+\section*{5. Alcance de la Investigación y Limitaciones}
+
+\subsection*{5.1. Declaración del Alcance}
+Este estudio es de tipo \textbf{correlacional-explicativo}: busca relacionar los deterioros superficiales medidos mediante el PCI con el comportamiento estructural estimado por análisis mecanicista-empírico, y evaluar la causalidad entre las solicitaciones de carga vehicular y la degradación progresiva de la estructura del pavimento.
+
+\subsection*{5.2. Limitaciones de la Investigación}
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Factores externos:} Al tratarse de una evaluación observacional y de modelación sobre una infraestructura vial existente y en servicio, y no de un experimento controlado en laboratorio de vía a escala real, las inferencias sobre causalidad directa están acotadas a las condiciones de frontera del tramo estudiado.
+    \item \textbf{Restricción temporal:} La recolección de datos de tráfico y auscultación se restringe temporalmente al alcance operativo del semestre académico, limitando la extrapolación estacional prolongada de los datos de comportamiento dinámico.
+\end{itemize}
+\textit{Nota aclaratoria (Limitación del investigador):} La disponibilidad de tiempo del equipo de trabajo y los recursos logísticos para ensayos de alta complejidad se gestionaron internamente para ajustarse al cronograma de 16 semanas, constituyendo una restricción interna del equipo que no altera la validez metodológica del informe final.
+
+\section*{6. Hipótesis}
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Hipótesis de Trabajo ($H_1$):} La integración de la metodología PCI con el análisis mecanicista-empírico permite establecer de forma diferenciada las causas profundas de deterioro estructural frente a los daños puramente superficiales en corredores viales de carga, optimizando la selección de la intervención correctiva.
+    \item \textbf{Hipótesis Nula ($H_0$):} La integración de la metodología PCI y el análisis mecanicista-empírico no aporta una diferenciación estadísticamente significativa ni mejora los criterios de selección de alternativas frente a los diagnósticos basados exclusivamente en auscultación visual superficial.
+\end{itemize}
+
+\section*{7. Identificación y Definición Nominal-Conceptual de Variables}
+A continuación se presentan las variables identificadas en la investigación, clasificadas según su función y definidas conceptualmente sin incorporar prematuramente definiciones operacionales instrumentales:
+
+\vspace{0.3cm}
+\begin{center}
+\begin{small}
+\begin{tabular}{p{4.2cm} p{3.2cm} p{7.5cm}}
+\toprule
+\textbf{Variable} & \textbf{Tipo} & \textbf{Definición Nominal-Conceptual} \\
+\midrule
+Índice de Condición del Pavimento (PCI) & Independiente / Indicador base & Calificación numérica derivada de la cuantificación del tipo, severidad y densidad de los daños superficiales visibles en la estructura del pavimento. \\
+\addlinespace
+Comportamiento estructural mecanicista-empírico & Dependiente & Respuesta teórica de la estructura del pavimento ante las solicitaciones de carga vehicular, estimada mediante modelos de esfuerzos, deformaciones y deflexiones bajo normativa INVIAS. \\
+\addlinespace
+Solicitaciones de tráfico de carga & Interviniente & Magnitud, frecuencia y configuración de las cargas vehiculares pesadas que transitan por el corredor vial y aceleran la fatiga de los materiales. \\
+\bottomrule
+\end{tabular}
+\end{small}
+\end{center}
+
+\end{document}
